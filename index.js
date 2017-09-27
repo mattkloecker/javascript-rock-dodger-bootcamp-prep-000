@@ -128,7 +128,7 @@ function endGame() {
 function clearRocks(ROCKS){
   while(ROCKS.length){
     ROCKS.pop();
-    
+
   }
 }
 ROCKS.length=0;
