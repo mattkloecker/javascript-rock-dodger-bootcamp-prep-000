@@ -125,6 +125,12 @@ function endGame() {
 
  window.removeEventListener('keydown', moveDodger);
 
+function clearRocks(ROCKS){
+  while(ROCKS.length){
+    ROCKS.pop();
+    
+  }
+}
 ROCKS.length=0;
  alert("You Lose! LOL")
 }
