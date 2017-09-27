@@ -151,12 +151,12 @@ if(left===0){
 }
 else{
 function move(){
-  dodger.style.left=`${left+=4}px`
+  DODGER.style.left=`${left+=4}px`
   if(left>0){
-    window.requestAnimationFrame(move)
+    window.requestAnimationFrame(move);
       }
     }
-  window.requestAnimationFrame(move)
+  window.requestAnimationFrame(move);
   }
 }
 
