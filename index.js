@@ -144,19 +144,25 @@ function moveDodger(e) {
  */
 
 function moveDodgerLeft() {
-var left=positionToInteger(DODGER.style.left)
+var left=positionToInteger(DODGER.style.left);
 
+if(left===0){
+  DODGER.style.left=0;
+}
+else{
 function move(){
   dodger.style.left=`${left+=4}px`
   if(left>0){
     window.requestAnimationFrame(move)
+      }
     }
-  }
   window.requestAnimationFrame(move)
+  }
 }
 
 function moveDodgerRight() {
 var left=positionToInteger(DODGER.style.left)
+
 
 function move(){
   dodger.style.left=`${left-=4}px`
@@ -164,7 +170,6 @@ function move(){
     window.requestAnimationFrame(move)
     }
   }
-  window.requestAnimationFrame(move)
 }
 
 /**
