@@ -147,22 +147,24 @@ function moveDodgerLeft() {
 var left=positionToInteger(DODGER.style.left)
 
 function move(){
-  dodger.style.left=`${left+4}px`
+  dodger.style.left=`${left+=4}px`
   if(left>0){
     window.requestAnimationFrame(move)
     }
   }
+  window.requestAnimationFrame(move)
 }
 
 function moveDodgerRight() {
 var left=positionToInteger(DODGER.style.left)
 
 function move(){
-  dodger.style.left=`${left-4}px`
+  dodger.style.left=`${left-=4}px`
   if(left<360){
     window.requestAnimationFrame(move)
     }
   }
+  window.requestAnimationFrame(move)
 }
 
 /**
