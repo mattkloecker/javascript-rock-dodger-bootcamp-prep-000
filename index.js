@@ -122,6 +122,7 @@ GAME.appendChild(rock)
  */
 function endGame() {
   var gameInterval=0;
+  document.removeEventListener('keydown', function moveDodger())
 }
 
 
@@ -136,7 +137,6 @@ function moveDodger(e) {
     e.stopPropagation();
     moveDodgerRight();
   }
-
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
