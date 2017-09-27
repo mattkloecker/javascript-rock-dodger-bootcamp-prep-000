@@ -147,7 +147,7 @@ function moveDodgerLeft() {
 var left=0
 
 function move(){
-  dodger.style.left=`${left+=4}px`
+  dodger.style.left=`${left+4}px`
   if(left>0){
     window.requestAnimationFrame(move)
     }
@@ -158,7 +158,7 @@ function moveDodgerRight() {
 var left=0
 
 function move(){
-  dodger.style.left=`${left-=4}px`
+  dodger.style.left=`${left-4}px`
   if(left<360){
     window.requestAnimationFrame(move)
     }
