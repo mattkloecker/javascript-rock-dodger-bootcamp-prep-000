@@ -122,7 +122,7 @@ GAME.appendChild(rock)
  */
 function endGame() {
   var gameInterval=0;
-  
+
 
 }
 
