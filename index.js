@@ -126,7 +126,7 @@ function endGame() {
 while(ROCKS.length>0){
   ROCKS.pop();
 }
- 
+
  alert("You Lose! LOL")
 }
 
