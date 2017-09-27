@@ -151,7 +151,7 @@ if(left===0){
 }
 else{
 function move(){
-  DODGER.style.left=`${left+=4}px`
+  DODGER.style.left=`${left-=4}px`
   if(left>0){
     window.requestAnimationFrame(move);
       }
@@ -163,9 +163,8 @@ function move(){
 function moveDodgerRight() {
 var left=positionToInteger(DODGER.style.left)
 
-
 function move(){
-  dodger.style.left=`${left-=4}px`
+  dodger.style.left=`${left+=4}px`
   if(left<360){
     window.requestAnimationFrame(move)
     }
