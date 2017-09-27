@@ -88,6 +88,7 @@ GAME.appendChild(rock)
      } else {
       rock.remove()
     }
+  window.requestAnimationFrame()  
 }
     // implement me!
     // (use the comments below to guide you!)
