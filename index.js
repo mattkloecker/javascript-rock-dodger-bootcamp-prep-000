@@ -122,7 +122,8 @@ GAME.appendChild(rock)
  */
 function endGame() {
   var gameInterval=0;
-  document.removeEventListener('keydown', function moveDodger())
+  window.removeEventListener('keydown', function moveDodger());
+  
 }
 
 
