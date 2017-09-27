@@ -122,9 +122,10 @@ GAME.appendChild(rock)
  */
 function endGame() {
   clearInterval(gameInterval);
+
  window.removeEventListener('keydown', moveDodger);
-while(ROCKS.length>0){
-  ROCKS.pop();
+
+ROCKS.length=0;
 }
 
  alert("You Lose! LOL")
