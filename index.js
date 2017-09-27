@@ -123,7 +123,7 @@ GAME.appendChild(rock)
 function endGame() {
   clearInterval(gameInterval);
  window.removeEventListener('keydown', moveDodger);
-
+ alert("You lose!")
 }
 
 
