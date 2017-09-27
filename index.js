@@ -153,7 +153,7 @@ function move(){
       }
     }
   window.requestAnimationFrame(move);
-  
+
 }
 
 function moveDodgerRight() {
