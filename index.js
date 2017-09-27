@@ -88,7 +88,6 @@ GAME.appendChild(rock)
      } else {
       rock.remove()
     }
-  window.requestAnimationFrame()
 }
     // implement me!
     // (use the comments below to guide you!)
@@ -107,7 +106,7 @@ GAME.appendChild(rock)
      * we should remove the rock from the DOM
      */
 
-
+     window.requestAnimationFrame()
   // We should kick of the animation of the rock around here
 
   // Add the rock to ROCKS so that we can remove all rocks
