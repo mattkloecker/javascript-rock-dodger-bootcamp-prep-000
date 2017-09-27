@@ -146,7 +146,6 @@ function move(){
     window.requestAnimationFrame(move)
   }
 }
-window.requestAnimationFrame(move)
   // implement me!
   /**
    * This function should move DODGER to the left
