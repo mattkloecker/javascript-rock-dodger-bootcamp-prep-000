@@ -126,8 +126,6 @@ function endGame() {
  window.removeEventListener('keydown', moveDodger);
 
 ROCKS.length=0;
-}
-
  alert("You Lose! LOL")
 }
 
