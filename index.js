@@ -138,12 +138,12 @@ function moveDodger(e) {
       }
     if(e.which===RIGHT_ARROW){
       moveDodgerRight();
-    }  
+    }
   }
 }
 
 function moveDodgerLeft() {
-  
+
   // implement me!
   /**
    * This function should move DODGER to the left
