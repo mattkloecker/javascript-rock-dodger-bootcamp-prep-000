@@ -171,7 +171,7 @@ function move(){
     window.requestAnimationFrame(move)
     }
   }
-  window.requestAnimationFrame();
+  window.requestAnimationFrame(move);
   }
 }
 
